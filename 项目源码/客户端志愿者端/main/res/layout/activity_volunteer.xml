@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus1.myapplication.LoginActivity">
+
+    <com.example.menfer.youreyes_v.YeUtils.RoundImageView
+        android:id="@+id/volunteer_image"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/person" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/volunteer_image"
+        android:layout_marginTop="20dp"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/volunteer_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/volunteer_image"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:text="用户名： " />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/volunteer_nickname"
+        android:layout_marginTop="10dp"
+        android:background="#000000" />
+    <TextView
+        android:id="@+id/volunteer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/volunteer_nickname"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:text="姓   名： " />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/volunteer_name"
+        android:layout_marginTop="10dp"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/volunteer_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/volunteer_name"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:text="性   别： "/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/volunteer_gender"
+        android:layout_marginTop="10dp"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/volunteer_telephone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/volunteer_gender"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:text="电   话： "/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/volunteer_telephone"
+        android:layout_marginTop="10dp"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/volunteer_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/volunteer_telephone"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:text="邮   箱： "/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/volunteer_email"
+        android:layout_marginTop="10dp"
+        android:background="#000000" />
+
+    <Button
+        android:id="@+id/volunteer_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/volunteer_email"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:ems="15"
+        android:text="确定" />
+
+
+</RelativeLayout>
